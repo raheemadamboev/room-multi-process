@@ -2,7 +2,7 @@
 
 <img align="right" width="296" height="600"  src="https://github.com/raheemadamboev/room-multi-process/blob/master/banner.gif" />
 
-A simple app that uses Room in multiple processes. Activity runs in one process and service runs on another process. When we manipulate database in one process aka Activity and we observe for changes in another process aka Service.
+A simple app that uses Room in multiple processes. Activity runs in one process and service runs on another process. When we manipulate database in one process (Activity). We observe for changes and show toast in another process (Service).
 
 **Room MultiProcess**
 
