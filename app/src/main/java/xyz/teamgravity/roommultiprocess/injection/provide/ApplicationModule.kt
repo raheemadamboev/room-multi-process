@@ -21,6 +21,7 @@ object ApplicationModule {
     fun provideNumberDatabase(application: Application): NumberDatabase =
         Room.databaseBuilder(application, NumberDatabase::class.java, NumberConst.NAME)
             .fallbackToDestructiveMigration()
+            .enableMultiInstanceInvalidation()
             .build()
 
     @Provides
