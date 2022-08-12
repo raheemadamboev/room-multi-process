@@ -1,4 +1,4 @@
-package xyz.teamgravity.roommultiporcess
+package xyz.teamgravity.roommultiprocess.presentation.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,13 +7,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import xyz.teamgravity.roommultiporcess.ui.theme.RoomMultiPorcessTheme
+import xyz.teamgravity.roommultiprocess.presentation.theme.RoomMultiProcessTheme
 
-class MainActivity : ComponentActivity() {
+class Main : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            RoomMultiPorcessTheme {
+            RoomMultiProcessTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

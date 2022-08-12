@@ -1,4 +1,4 @@
-package xyz.teamgravity.roommultiporcess
+package xyz.teamgravity.roommultiprocess
 
 import org.junit.Test
 

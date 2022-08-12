@@ -1,4 +1,4 @@
-package xyz.teamgravity.roommultiporcess.ui.theme
+package xyz.teamgravity.roommultiprocess.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
